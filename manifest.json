@@ -1,0 +1,10 @@
+{
+  "name": "Tidytabs",
+  "description": "Groups tabs by themes in different windows",
+  "version": "0.1",
+  "permissions": ["contextMenus","tabs"],
+  "background": {
+    "scripts": ["open.js"]
+  },
+  "manifest_version": 2
+}
