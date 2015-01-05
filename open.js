@@ -15,9 +15,14 @@ var parentEntry = chrome.contextMenus.create({"title": "Open Link in Existing Wi
 
 chrome.windows.getAll({ populate: true }, function(windowList) {
   for (var i = 0; i < windowList.length; i++) {
+    if( windowList[i].tabs.length > 0 ) { 
       var firstTab = windowList[i].tabs[0];
       var childItem = chrome.contextMenus.create({"title": firstTab.title, "contexts":["link"], "parentId": parentEntry, "onclick": genericOnClick}); 
       menuToWindow[childItem] = firstTab.windowId
+    } else {
+      var childItem = chrome.contextMenus.create({"title": windowList[i].title, "contexts":["link"], "parentId": parentEntry, "onclick": genericOnClick});      
+      menuToWindow[childItem] = windowList[i].id
+    }
   }
 });
 
