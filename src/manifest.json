@@ -4,7 +4,7 @@
   "version": "0.1",
   "permissions": ["contextMenus","tabs"],
   "background": {
-    "scripts": ["open.js"]
+    "scripts": ["tidytabs.js"]
   },
   "icons": { "16" : "icons/deer16.png",
              "24" : "icons/deer24.png",

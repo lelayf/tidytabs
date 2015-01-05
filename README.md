@@ -8,4 +8,8 @@ tidytabs adds a contextual menu to any link, for you to choose which of the exis
 Each window is identified by the title of its first tab, or the title of the window itself if it has no tabs.
 
 That's it.
+
+## Install
  
+Drag and drop tidytabs.crx on your extensions page in Chrome (Options > Tools > Extensions).
+
