@@ -5,7 +5,7 @@ tidytabs
 
 ## The problem
 
-Like a buck showing off its woods, I often end up with several browser windows opened, each exposing many tabs corresponding to a common topic. For instance I might keep a window for personal email and social networks, one for professional email, calendar and slack, one for MOOCs, one for art stuff ([ARTSY](http://www.artsy.com) is awesome), one for web frameworks (I'm learning [Lift](http://liftweb.net/index)) and one focusing on a specific area of Machine Learning. The thing is that sometimes I am browsing in "topic A" window and find a link relevant to "topic B" window. By default Chrome will allow me to open the link in a new tab in the same window or in a new window. Which kinda sucks. What I really want is to open that link in a new tab in "topic B" window.
+Like a buck showing off its woods, I often end up with several browser windows opened, each exposing many tabs corresponding to a common topic. For instance I might keep a window for personal email and social networks, one for professional email, calendar and slack, one for MOOCs, one for art stuff ([ARTSY](http://artsy.net) is awesome), one for web frameworks (I'm learning [Lift](http://liftweb.net/index)) and one focusing on a specific area of Machine Learning. The thing is that sometimes I am browsing in "topic A" window and find a link relevant to "topic B" window. By default Chrome will allow me to open the link in a new tab in the same window or in a new window. Which kinda sucks. What I really want is to open that link in a new tab in "topic B" window.
 
 ## The solution
 
