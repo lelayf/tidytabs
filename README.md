@@ -1,7 +1,7 @@
 tidytabs
 ========
 
-![It's a deer !](icons/deer128.png)
+![It's a deer !](tidytabs/icons/deer128.png)
 
 I like to keep about 10 different windows opened, each roughly corresponding to a specific topic. Sometimes I will be browsing in the window of topic A and I want to open a link that creates a new tab in the window of topic B.
 
